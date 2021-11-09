@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    list-style-type: none;
+    padding-left: 0;
+    
+
+   
+}
+li{
+    flex-grow: 1;
+    text-align: center;
+}
+ul :hover {
+    background-color: rgb(39, 36, 36);
+}
+a {
+    color: white;
+}
+@media screen and (max-width: 768px){
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        
+    }
+    li {
+        border: 1px grey solid;
+        width: 100%;
+        text-align: center;
+        
+    }
+    li :hover {
+        background-color: rgba(46, 45, 45, 0.658);
+    }
+
+       
+    
+}
